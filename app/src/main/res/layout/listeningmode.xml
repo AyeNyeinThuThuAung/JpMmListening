@@ -117,11 +117,11 @@
         android:paddingRight="10dp"
         android:paddingTop="10dp"
         android:textSize="18dp"
-        android:text="         Hey, this is steve I wanted to talk you about the ad agent's quote for the web banner but since you'r out.I will leave you a quick message.\n\n
+        android:text="   Hey, this is steve I wanted to talk you about the ad agent's quote for the web banner but since you'r out.I will leave you a quick message.\n\n
 
-         From my stand point, the fee is a bit too large considering our internet budget for next quarter.\n\n
+  From my stand point, the fee is a bit too large considering our internet budget for next quarter.\n\n
 
-          So instance of going for the bigger banner like they are suggesting how about the standard size which is 120*60 pixels?That, I belive is less than one third of the original cost "
+  So instance of going for the bigger banner like they are suggesting how about the standard size which is 120*60 pixels?That, I belive is less than one third of the original cost "
          />
 
 </ScrollView>

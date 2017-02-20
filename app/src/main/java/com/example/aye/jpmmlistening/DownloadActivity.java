@@ -60,7 +60,7 @@ public class DownloadActivity extends Activity {
                 break;
 
             case R.id.repating:
-                Intent intent1 = new Intent(DownloadActivity.this, RepatingActivity.class);
+                Intent intent1 = new Intent(DownloadActivity.this, JapanActivity.class);
                 startActivity(intent1);
                 break;
 

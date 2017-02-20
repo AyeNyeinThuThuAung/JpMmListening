@@ -116,7 +116,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="20dp"
-            android:text="もしもし、机の上にある資料を持って、/\nHello, Please bring the material on the table and/\n\n明日の朝、御徒町駅に来てください。/\ncome to the okachimachi station tomorrow morining./"/>
+            android:text="もしもし、机の上にある資料を持って、/\n Hello,Please bring the material on the table and/\n\n明日の朝、御徒町駅に来てください。/\ncome to the okachimachi station tomorrow morining./"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
