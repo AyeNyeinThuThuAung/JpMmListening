@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -99,19 +100,72 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:background="#FF8000"
                 android:layout_height="wrap_content"
+                android:background="#FF8000"
                 android:text="シャドー" />
         </LinearLayout>
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingTop="20dp"
-        android:textColor="#000099"
-        android:text="もしもし、机の上にある資料を持って、明日の朝、御徒町駅に来てください。"/>
+        android:text="もしもし、机の上にある資料を持って、明日の朝、御徒町駅に来てください。"
+        android:textColor="#000099" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#C0C0C0"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/wifi" />
+
+            <Button
+                android:id="@+id/imageView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/pencil" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/news" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/inform" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/file" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

@@ -65,8 +65,8 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round"
                 android:text="リスニングモード"
-                android:onClick="selectmode"
                 android:textColor="#FFFFFF"
+                android:onClick="selectmode"
                 android:textSize="12dp" />
 
             <Button
@@ -77,8 +77,8 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/round"
                 android:text="クイズモード"
-                android:onClick="selectmode"
                 android:textColor="#FFFFFF"
+                android:onClick="selectmode"
                 android:textSize="12dp" />
 
             <Button
@@ -86,9 +86,9 @@
                 android:layout_width="254dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="30dp"
-                android:onClick="selectmode"
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="10dp"
+                android:onClick="selectmode"
                 android:background="@drawable/round"
                 android:text="リピーティングモード＆シャドーイングモード"
                 android:textColor="#FFFFFF"
