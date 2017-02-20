@@ -125,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
-            android:text="-------------------------------------------------------2"
+            android:text="------------------------------------------------------"
             android:layout_marginLeft="10dp"/>
 
         <LinearLayout
@@ -134,23 +134,26 @@
             android:orientation="horizontal"
             android:weightSum="1">
             <Button
+                android:id="@+id/goepisode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="メニューへ戻る"
                 android:background="#A0A0A0"
                 android:layout_marginLeft="50dp"
+                android:onClick="returnEpisode"
                 android:layout_weight="0.26" />
 
             <Button
+                android:id="@+id/tryAgain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="もう一度挑戦"
                 android:layout_marginLeft="8dp"
                 android:background="#FF8000"
                 android:layout_weight="0.26"
+                android:onClick="tryAgain"
                 android:layout_marginRight="30dp"
-                android:layout_marginBottom="30dp"
-                android:id="@+id/button" />
+                android:layout_marginBottom="30dp" />
         </LinearLayout>
     </LinearLayout>
 
