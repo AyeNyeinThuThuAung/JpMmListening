@@ -15,23 +15,23 @@ public class ModeChoiceActivity extends Activity {
         setContentView(R.layout.modechoice);
     }
 
-    public void selectmode(View view) {
-        switch (view.getId()) {
-            case R.id.listening:
-                Intent intent = new Intent(this, ListeningModeActivity.class);
-                startActivity(intent);
-                break;
-
-            case R.id.repating:
-                Intent intent1 = new Intent(this, RepatingActivity.class);
-                startActivity(intent1);
-                break;
-
-            case R.id.quezz:
-                Intent intent2 = new Intent(this, QuizzModeActivity.class);
-                startActivity(intent2);
-        }
-    }
-
+//    public void selectmode(View view) {
+//        switch (view.getId()) {
+//            case R.id.listening:
+//                Intent intent = new Intent(this, ListeningModeActivity.class);
+//                startActivity(intent);
+//                break;
+//
+//            case R.id.repating:
+//                Intent intent1 = new Intent(this, RepatingActivity.class);
+//                startActivity(intent1);
+//                break;
+//
+//            case R.id.quezz:
+//                Intent intent2 = new Intent(this, QuizzModeActivity.class);
+//                startActivity(intent2);
+//        }
+//    }
+//
 
 }

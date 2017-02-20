@@ -44,28 +44,30 @@ public class DownloadActivity extends Activity {
         @Override
         protected void onPostExecute(Integer integer) {
             super.onPostExecute(integer);
-            Intent intent = new Intent(DownloadActivity.this,ModeChoiceActivity.class);
-            startActivity(intent);
-//            Dialog dialog = new Dialog(context);
-//            dialog.setContentView(R.layout.modechoice);
-//            dialog.show();
+//            Intent intent = new Intent(DownloadActivity.this,ModeChoiceActivity.class);
+//            startActivity(intent);
+            Dialog dialog = new Dialog(context);
+            dialog.setContentView(R.layout.modechoice);
+            dialog.show();
         }
     }
 
-//    public void selectmode(View view) {
-//        switch (view.getId()) {
-//            case R.id.listening:
-//                Intent intent = new Intent(DownloadActivity.this, ListeningModeActivity.class);
-//                startActivity(intent);break;
-//
-//            case R.id.repating:
-//                Intent intent1 = new Intent(DownloadActivity.this, RepatingActivity.class);
-//                startActivity(intent1);break;
-//
-//            case R.id.quezz:
-//                Intent intent2 = new Intent(DownloadActivity.this,QuizzModeActivity.class);
-//                startActivity(intent2);
-//        }
-//    }
+    public void selectmode(View view) {
+        switch (view.getId()) {
+            case R.id.listening:
+                Intent intent = new Intent(DownloadActivity.this, ListeningModeActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.repating:
+                Intent intent1 = new Intent(DownloadActivity.this, RepatingActivity.class);
+                startActivity(intent1);
+                break;
+
+            case R.id.quezz:
+                Intent intent2 = new Intent(DownloadActivity.this, QuizzModeActivity.class);
+                startActivity(intent2);
+        }
+    }
 
 }
