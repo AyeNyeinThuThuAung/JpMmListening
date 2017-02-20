@@ -7,10 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -82,16 +79,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        // for ダウンロード button click
-        Button btndown = (Button) findViewById(R.id.download);
-        //for progeress
-        ProgressBar progressBar = (ProgressBar) findViewById(R.id.progerss);
-
     }
 
-    //go to download page press download(btndown)
+    //go to download page press download(download in dialog.xml)
     public void download(View view) {
-        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+        Intent intent = new Intent(MainActivity.this, DownloadActivity.class);
         startActivity(intent);
     }
 

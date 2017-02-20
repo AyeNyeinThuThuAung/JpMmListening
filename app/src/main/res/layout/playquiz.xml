@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="CDショップでの会話"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="10dp"
+            android:text="フレーズ3択クイズ"
+            android:textColor="#000099"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.35"
+            android:background="@drawable/round"
+            android:paddingLeft="15dp"
+            android:text="1問目/11問中"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="スキット内で使われていた意味を選択してください" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/littleround"
+        android:paddingBottom="10dp"
+        android:paddingLeft="29dp"
+        android:paddingTop="10dp"
+        android:text="Q1: quote"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/roundmild"
+        android:onClick="mark"
+        android:text=" A: 請求書" />
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundmild"
+        android:onClick="mark"
+        android:text="B: 納品書" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundmild"
+        android:onClick="mark"
+        android:text="C:見積もり" />
+
+
+</LinearLayout>

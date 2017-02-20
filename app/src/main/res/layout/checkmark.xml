@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="150dp"
+        android:paddingTop="8dp"
+        android:text="正解数"
+        android:textColor="#660033"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundmild"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="理解度チェック" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white"
+                android:text="3/3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="プレーズ3択" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white"
+                android:text="3/3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="------------------------------------------------"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="あなたにオススメもテスト"
+            android:textColor="#0000CC"
+            android:paddingLeft="60dp" />
+
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/round"
+             android:text="次はTOEICテストに挑戦"
+             android:textColor="#FFFFFF"
+             android:layout_marginTop="10dp"
+             android:paddingTop="15dp"
+             android:paddingBottom="15dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:paddingLeft="50dp"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red"
+            android:text="次はTOEICテストに挑戦"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green"
+            android:text="次はTOEICテストに挑戦"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="-------------------------------------------------------2"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="メニューへ戻る"
+                android:background="#A0A0A0"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.26" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="もう一度挑戦"
+                android:layout_marginLeft="8dp"
+                android:background="#FF8000"
+                android:layout_weight="0.26"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

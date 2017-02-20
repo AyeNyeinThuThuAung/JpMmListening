@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="CDショップでの会話"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundmild"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:text="00:00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="240dp"
+                android:text="00:00" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/listenseek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:src="@drawable/backward" />
+
+            <ImageButton
+                android:id="@+id/pause"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:src="@drawable/pause" />
+
+            <ImageButton
+                android:id="@+id/forward"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="日本語" />
+
+            <Button
+                android:id="@+id/japan"
+                android:layout_width="wrap_content"
+                android:background="#FF8000"
+                android:layout_height="wrap_content"
+                android:text="リピート" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="シャドー" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:textColor="#000099"
+        android:text="もしもし、机の上にある資料を持って、/明日の朝、御徒町駅に来てください。/"/>
+
+</LinearLayout>
