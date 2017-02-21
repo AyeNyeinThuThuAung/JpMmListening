@@ -45,8 +45,6 @@ public class DownloadActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Integer integer) {
             super.onPostExecute(integer);
-//            Intent intent = new Intent(DownloadActivity.this,ModeChoiceActivity.class);
-//            startActivity(intent);
             Dialog dialog = new Dialog(context);
             dialog.setContentView(R.layout.modechoice);
             dialog.show();

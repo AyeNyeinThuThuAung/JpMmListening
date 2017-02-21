@@ -8,36 +8,46 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />s
             </intent-filter>
         </activity>
         <activity
             android:name=".DownloadActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".ModeChoiceActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".ListeningModeActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".QuizzModeActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".RepatingActivity"
-            android:label="JpMmListening"/>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".AnsQueActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".JapanActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".RepeatLanguaeActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".ShadoActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".PlayQuizActivity"
-            android:label="JpMmListening"></activity>
+            android:label="JpMmListening"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
