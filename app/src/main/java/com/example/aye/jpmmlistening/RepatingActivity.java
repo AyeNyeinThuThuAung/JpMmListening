@@ -7,9 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * Created by Aye on 2/16/2017.
- */
 
 public class RepatingActivity extends Activity {
     @Override

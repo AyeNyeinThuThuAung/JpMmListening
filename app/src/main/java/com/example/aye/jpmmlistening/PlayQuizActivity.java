@@ -5,11 +5,12 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 
 //プレーズ3択クイズ
-public class PlayQuizActivity extends Activity {
+public class PlayQuizActivity extends AppCompatActivity {
     Context context = this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

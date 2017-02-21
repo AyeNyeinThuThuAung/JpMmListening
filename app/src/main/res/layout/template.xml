@@ -6,48 +6,108 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_gravity="bottom"
         android:background="#C0C0C0"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="bottom"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="50dp"
-            android:background="@drawable/wifi" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/imageView"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/pencil" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/wifi" />
 
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/news" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Episode"
+                android:layout_marginLeft="25dp"/>
 
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/inform" />
+        </LinearLayout>
 
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/file" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <Button
+                android:id="@+id/imageView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/pencil" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phrases"
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/news" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News"
+                android:layout_marginLeft="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/inform" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toeic"
+                android:layout_marginLeft="35dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/file"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App"
+                android:layout_marginLeft="45dp"/>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -6,9 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * Created by Aye on 2/16/2017.
- */
 
 public class ListeningModeActivity extends Activity {
     @Override

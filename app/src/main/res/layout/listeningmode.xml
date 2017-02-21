@@ -116,7 +116,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingTop="10dp"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:text="   Hey, this is steve I wanted to talk you about the ad agent's quote for the web banner but since you'r out.I will leave you a quick message.\n\n
 
   From my stand point, the fee is a bit too large considering our internet budget for next quarter.\n\n
@@ -125,52 +125,5 @@
          />
 
 </ScrollView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        android:background="#C0C0C0"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="bottom"
-            android:layout_marginLeft="50dp"
-            android:background="@drawable/wifi" />
-
-        <Button
-            android:id="@+id/imageView"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/pencil" />
-
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/news" />
-
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/inform" />
-
-        <Button
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/file" />
-
-    </LinearLayout>
 
 </LinearLayout>
